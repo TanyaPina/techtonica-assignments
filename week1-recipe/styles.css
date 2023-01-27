@@ -2,6 +2,10 @@ p {
     color: blue;
   }
 
-  body {
+body {
     background-color: #D5CBB4 ;
   }
+
+h3 {
+    color: #442945;
+}
