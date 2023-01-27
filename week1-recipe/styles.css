@@ -7,5 +7,10 @@ body {
   }
 
 h3 {
+    font-family: 'Archivo', sans-serif;
     color: #442945;
+}
+
+.description {
+  width: 600px;
 }
