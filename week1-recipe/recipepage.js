@@ -90,6 +90,31 @@ check(foodList);
 
 const ul =  document.getElementById("ingredients");
 ul.remove();
+
+//let myBtnDiv = document.getElementById("right");
+let btn = document.createElement("button");
+btn.innerHtml = "Click me for jelly mode"
+btn.onclick = () => {
+    document.body.style.color = "white";
+    document.body.style.background = "rebeccapurple";
+    let newLinkColor = document.getElementById("myLink");
+    newLinkColor.style.color = "lemonchiffon";
+    let headerLeft = document.getElementById("leftJelly");
+    headerLeft.style.color = "honeydew";
+    let headerRightOne = document.getElementById("rightJellyOne");
+    headerRightOne.style.color = "honeydew";
+    let headerRightTwo = document.getElementById("rightJellyTwo");
+    headerRightTwo.style.color = "honeydew";
+    let linkRightOne = document.getElementById("rightLinkOne");
+    linkRightOne.style.color = "lemonchiffon";
+    let linkRightTwo = document.getElementById("rightLinkTwo");
+    linkRightTwo.style.color = "lemonchiffon"
+    let paragraphLeftLink= document.getElementById("firstLink");
+    paragraphLeftLink.style.color = "lemonchiffon";
+    let titleDescription= document.getElementById("title");
+    titleDescription.style.color = "lemonchiffon";
+}
+document.body.appendChild(btn);
 /*
 function checkThrough(){
     document.getElementByClass("checked").style.textDecoration = "line-through";
