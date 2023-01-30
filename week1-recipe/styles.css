@@ -1,0 +1,27 @@
+p {
+    color: blue;
+  }
+
+body {
+    background-color: #D5CBB4 ;
+  }
+
+h3 {
+    font-family: 'Archivo', sans-serif;
+    color: #442945;
+}
+
+.description {
+  width: 600px;
+}
+
+.left {
+  float: left;
+  width: 600px;
+}
+
+.right {
+  float: right;
+  width: 600px;
+  margin-left: 30px;
+}

@@ -1,22 +1,40 @@
 <!DOCTYPE html>
   <head>
     <title>Tanya's Favorite Peanut Butter and Jelly Sandwich</title>
-      <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Archivo:wght@300&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
     <div class="top">
       <h1>Tanya's Favorite Peanut Butter and Jelly Sandwich</h1>
-      <p>A PB&J with banana is one of my favorite pick-me-ups. It is delicious and requires only four main ingredients!</p>
+      <p class="description" id="title">
+      A PB&J with banana is one of my favorite pick-me-ups.  
+        It is delicious and requires only four main ingredients!
+      </p>
     </div>
     <div class="left">
       <div>
-        <img src="https://shaneandsimple.com/wp-content/uploads/2017/08/fullsizeoutput_a7c.jpeg" alt="Peanut butter and jelly sandwich" height="600px">
-        <p>Photo credit: <a href="https://shaneandsimple.com/grilled-peanut-butter-banana-jelly-sandwich/">Shane and Simple</a> </p>
+        <img 
+          src="https://i.insider.com/5ce6bd63f2f4792fd0292a80?width=700&format=jpeg&auto=webp" 
+          alt="Peanut butter and jelly sandwich" 
+          width ="600px">
+        <p id="firstLink">Photo credit: <a href="https://www.businessinsider.com/what-to-put-on-a-peanut-butter-sandwich-2019-5#step-up-your-pbj-by-adding-a-few-extra-ingredients-6" id="myLink">Business Insider</a> </p>
       </div>
-      <div>
-      <h3>Ingredients</h3>
-      <ul>
-        <li>2 whole wheat bread slices</li>
+      <div id="myDiv">
+      <h3 id="leftJelly">Ingredients</h3>
+      <div id="myDivTwo">
+        <ol id="test">
+
+        </ol>
+      </div>
+        
+      <ul id="ingredients">
+        <li >2 whole wheat bread slices</li>
         <li>1 banana</li>
         <li>1 jar of peanut butter</li>
         <li>1 jar of strawberry jelly</li>
@@ -25,7 +43,7 @@
     </div>
     <div class="right">
       <div>
-        <h3>Making the sandwich </h3>
+        <h3 id="rightJellyOne">Making the sandwich </h3>
           <ol>
             <li>Toast your bread until it is of a golden brown color.</li>
             <li>Place your toasted bread slices side by side.</li>
@@ -37,10 +55,11 @@
           </ol>
         </div>
       <div>
-        <h3>Other Peanut Butter and Jelly Sandwich Recipes to Try:</h3>
-        <p><a href="https://www.foodnetwork.com/recipes/tyler-florence/grilled-peanut-butter-jelly-and-banana-sandwich-recipe-1942807">Tyler Florence's Grilled Peanut Butter, Jelly, and Banana Sandwich</a></p>
-        <p><a href="https://www.smuckers.com/recipes/lunch/pb-j-banana-dogs">Smucker's PB&J Banana Dogs</a></p>
+        <h3 id="rightJellyTwo">Other Peanut Butter and Jelly Sandwich Recipes to Try:</h3>
+        <p><a href="https://www.foodnetwork.com/recipes/tyler-florence/grilled-peanut-butter-jelly-and-banana-sandwich-recipe-1942807" id="rightLinkOne">Tyler Florence's Grilled Peanut Butter, Jelly, and Banana Sandwich</a></p>
+        <p><a href="https://www.smuckers.com/recipes/lunch/pb-j-banana-dogs" id="rightLinkTwo">Smucker's PB&J Banana Dogs</a></p>
       </div>
-    </div>          
+    </div>  
+    <script src="recipepage.js"></script>        
   </body>
 </html>
