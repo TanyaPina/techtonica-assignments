@@ -13,10 +13,10 @@ Pseudocode:
 */
 
 function divisibleByThree(num){
-    if (num % 3 === 0){
-        return true;
-    } else {
-        return false;
+ if (num % 3 === 0){
+    return true;
+} else {
+    return false;
     }
 }
 
@@ -25,9 +25,26 @@ console.log(divisibleByThree(11));
 console.log(divisibleByThree(0));
 console.log(divisibleByThree(-33));
 console.log(divisibleByThree(-11));
+
+
 // 2. Write a function that takes a string as the argument.
 // The function should return a number that is the number of characters in the string.
 // Choose names that make the code easy to understand.
+/*
+Pseudocode:
+- input: string 
+- output: number that is the number of characters in the string
+*/
+
+function lengthOfString(string){
+let strLength = string.length;
+return strLength;
+}
+
+console.log(lengthOfString("Hello World!"));
+console.log(lengthOfString(""));
+console.log(lengthOfString("abcdefghijklmnopqrstuvwxyz"));
+console.log(lengthOfString("!!!!!"));
 
 //3. 
 // a. Create an array of numbers, (ex: [1, 2, 3])
