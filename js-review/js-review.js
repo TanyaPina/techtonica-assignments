@@ -80,11 +80,12 @@ function addArrayToBeginning(arr1, arr2){
 
 }
 
+//e.
 function firstItemInFirstItem(arr){
     let firstItem = arr[0];
     return firstItem[0];
 }
-//e.
+
 console.log(firstItemInArray(numArray));
 console.log(lastItemInArray(numArray));
 console.log(addItemAtEndOfArray(numArray, 4));
@@ -94,3 +95,23 @@ console.log(firstItemInFirstItem(numArray));
 // 4. Create a function that calculates how many minutes have elapsed from midnight until right now.
 // The function should still return an accurate answer,
 // even if you ran it a few minutes or hours later.
+/*
+Pseudocode: 
+- input: current time
+- output: time passed from midnight until present (input)
+- can use date object to access and set times
+- can compare dates
+*/
+
+function minutesAfterMidnight(){
+    const midnight = new Date();
+    midnight.setHours(0,0,0,0,0);
+    //return midnight;
+    const currentTime = new Date();
+    currentTime.getHours();
+    //return currentTime;
+    const timeElapsed = currentTime - midnight;
+    minutesTimeElapsed = (timeElapsed/1000)/60;
+    return minutesTimeElapsed;
+}
+console.log(minutesAfterMidnight());
