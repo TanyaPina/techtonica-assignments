@@ -47,13 +47,49 @@ console.log(lengthOfString("abcdefghijklmnopqrstuvwxyz"));
 console.log(lengthOfString("!!!!!"));
 
 //3. 
-// a. Create an array of numbers, (ex: [1, 2, 3])
-// b. Without using any math operators, write 5 statements:
-//   - Return the first item in the array (ex: 1)
-//   - Return the last item in the array (ex: 3)
-//   - Add a new item to the end of the array (ex: [1,2,3,4])
-//   - Add an array to the beginning of the array. (ex: [["a","b","c"],1,2,3,4])
-//   - Return the first item from the first item in the array. (ex: "a")
+// -  Create an array of numbers, (ex: [1, 2, 3])
+// - Without using any math operators, write 5 statements:
+//   - a. Return the first item in the array (ex: 1)
+//   - b. Return the last item in the array (ex: 3)
+//   - c. Add a new item to the end of the array (ex: [1,2,3,4])
+//   - d. Add an array to the beginning of the array. (ex: [["a","b","c"],1,2,3,4])
+//   - e. Return the first item from the first item in the array. (ex: "a")
+
+const numArray = [1,2,3];
+
+//a.
+function firstItemInArray(arr){
+    return arr[0];
+}
+
+//b. 
+function lastItemInArray(arr){
+    return arr[arr.length -1]; 
+}
+
+//c.
+function addItemAtEndOfArray(arr, item){
+    arr.push(item);
+    return arr;
+}
+
+//d.
+function addArrayToBeginning(arr1, arr2){
+    arr1.unshift(arr2);
+    return arr1;
+
+}
+
+function firstItemInFirstItem(arr){
+    let firstItem = arr[0];
+    return firstItem[0];
+}
+//e.
+console.log(firstItemInArray(numArray));
+console.log(lastItemInArray(numArray));
+console.log(addItemAtEndOfArray(numArray, 4));
+console.log(addArrayToBeginning(numArray, ["a", "b", "c"]));
+console.log(firstItemInFirstItem(numArray));
 
 // 4. Create a function that calculates how many minutes have elapsed from midnight until right now.
 // The function should still return an accurate answer,
