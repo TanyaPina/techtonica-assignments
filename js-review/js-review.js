@@ -20,11 +20,11 @@ function divisibleByThree(num){
     }
 }
 
-console.log(divisibleByThree(33));
-console.log(divisibleByThree(11));
-console.log(divisibleByThree(0));
-console.log(divisibleByThree(-33));
-console.log(divisibleByThree(-11));
+console.log(divisibleByThree(33)); //true
+console.log(divisibleByThree(11)); //false
+console.log(divisibleByThree(0)); //true
+console.log(divisibleByThree(-33)); //true
+console.log(divisibleByThree(-11)); //false
 
 
 // 2. Write a function that takes a string as the argument.
@@ -41,10 +41,10 @@ let strLength = string.length;
 return strLength;
 }
 
-console.log(lengthOfString("Hello World!"));
-console.log(lengthOfString(""));
-console.log(lengthOfString("abcdefghijklmnopqrstuvwxyz"));
-console.log(lengthOfString("!!!!!"));
+console.log(lengthOfString("Hello World!")); //12
+console.log(lengthOfString("")); //0
+console.log(lengthOfString("abcdefghijklmnopqrstuvwxyz"));  //26
+console.log(lengthOfString("!!!!!")); //5
 
 //3. 
 // -  Create an array of numbers, (ex: [1, 2, 3])
@@ -86,11 +86,11 @@ function firstItemInFirstItem(arr){
     return firstItem[0];
 }
 
-console.log(firstItemInArray(numArray));
-console.log(lastItemInArray(numArray));
-console.log(addItemAtEndOfArray(numArray, 4));
-console.log(addArrayToBeginning(numArray, ["a", "b", "c"]));
-console.log(firstItemInFirstItem(numArray));
+console.log(firstItemInArray(numArray)); //1
+console.log(lastItemInArray(numArray)); //3
+console.log(addItemAtEndOfArray(numArray, 4)); // [1,2,3,4]
+console.log(addArrayToBeginning(numArray, ["a", "b", "c"])); //[["a,"b,"c"],1,2,3,4]
+console.log(firstItemInFirstItem(numArray));  //"a"
 
 // 4. Create a function that calculates how many minutes have elapsed from midnight until right now.
 // The function should still return an accurate answer,
