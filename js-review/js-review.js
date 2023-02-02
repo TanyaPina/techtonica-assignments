@@ -6,8 +6,25 @@
 // Choose names that make the code easy to understand.
 //
 // Note:  None of the review # problems have tests included, but feel free to write your own.
+/*
+Pseudocode: 
+- input: number
+- output - true or false if num is divisible by 3.
+*/
 
+function divisibleByThree(num){
+    if (num % 3 === 0){
+        return true;
+    } else {
+        return false;
+    }
+}
 
+console.log(divisibleByThree(33));
+console.log(divisibleByThree(11));
+console.log(divisibleByThree(0));
+console.log(divisibleByThree(-33));
+console.log(divisibleByThree(-11));
 // 2. Write a function that takes a string as the argument.
 // The function should return a number that is the number of characters in the string.
 // Choose names that make the code easy to understand.
