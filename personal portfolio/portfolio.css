@@ -4,9 +4,10 @@ body {
   }
 
 header {
-  max-width: 500px;
+  min-width: 400px;
   margin: auto;
   text-align: center;
+  
 }
 
 p {
