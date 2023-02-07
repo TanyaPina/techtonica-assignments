@@ -16,3 +16,10 @@ class Event {
 
   console.log(eventObj2);
   console.log(eventObj3);
+
+  const eventArray = new Array();
+
+eventArray.push(eventObj1);
+console.log(eventArray);
+eventArray.push(eventObj1, eventObj2, eventObj3);
+console.log(eventArray);
