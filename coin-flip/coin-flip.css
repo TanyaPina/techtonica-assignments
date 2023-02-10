@@ -51,3 +51,12 @@ body {
         transform: rotateX(540deg);
     }
 }
+
+@keyframes spins-heads{
+    0%{
+        transform: rotateX(0);
+    }
+    100% {
+        transform: rotateX(720deg);
+    }
+}
