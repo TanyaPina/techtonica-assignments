@@ -60,3 +60,14 @@ body {
         transform: rotateX(720deg);
     }
 }
+
+.scoreboard{
+    display: flex;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 45px; 
+}
+
+#tails-count{
+    margin-left: 50%;
+}
