@@ -98,3 +98,8 @@ button{
 #reset{
     margin-left: 50%;
 }
+
+#flip{
+    background-color: #7C4660;
+    color: #ffffff;
+}
