@@ -42,3 +42,12 @@ body {
 .tails{
     transform: rotateX(180deg);
 }
+
+@keyframes spin-tails{
+    0%{
+        transform: rotateX(0);
+    }
+    100%{
+        transform: rotateX(540deg);
+    }
+}
