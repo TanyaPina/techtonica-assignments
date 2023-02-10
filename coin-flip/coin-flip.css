@@ -1,3 +1,15 @@
 body {
     background-color: saddlebrown
 }
+
+#container {
+    background-color: white;
+    width: 400px;
+    padding: 35px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    bottom: 50%;
+    margin: 0;
+
+}
