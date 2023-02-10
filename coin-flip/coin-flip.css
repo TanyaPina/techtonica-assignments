@@ -19,3 +19,10 @@ body {
     left: 50%;
     border-radius: 10px;
 }
+
+.coin{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin: 32px auto;
+}
