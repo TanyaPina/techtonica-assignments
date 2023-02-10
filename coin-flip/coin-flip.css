@@ -31,7 +31,7 @@ body {
     width: 145px;
 }
 
-.heads, .tails{
+#heads, #tails{
     position:absolute;
     width:100%;
     height: 100%;
@@ -39,7 +39,7 @@ body {
             backface-visibility: hidden;
 }
 
-.tails{
+#tails{
     transform: rotateX(180deg);
 }
 
@@ -104,6 +104,10 @@ button{
     color: #ffffff;
 }
 
+#flip:disabled{
+    background-color: #e1e0ee;
+    color: #000000;
+}
 #reset{
     background-color: #545B3E;
     color: #ffffff;
