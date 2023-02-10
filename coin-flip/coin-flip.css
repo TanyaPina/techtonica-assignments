@@ -71,3 +71,8 @@ body {
 #tails-count{
     margin-left: 50%;
 }
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
