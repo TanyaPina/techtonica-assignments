@@ -26,3 +26,7 @@ body {
     position: relative;
     margin: 32px auto;
 }
+
+.coin img{
+    width: 145px;
+}
