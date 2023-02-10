@@ -45,3 +45,9 @@ function updateScoreboard(){
     tailsCounter.innerHTML = `Tails: ${tails}`;
 }
 
+function disableButton(){
+    flipButton.disabled = true;
+    setTimeout(function(){
+        flipButton.disabled = false;
+    },3000);
+}
