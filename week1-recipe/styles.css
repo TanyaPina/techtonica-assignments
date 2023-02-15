@@ -1,5 +1,5 @@
 p {
-    color: blue;
+    color: #442945;
   }
 
 body {
@@ -24,4 +24,16 @@ h3 {
   float: right;
   width: 600px;
   margin-left: 30px;
+}
+
+@media only screen and (min-width: 600px) {
+  [class *="left" ] {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  [class *="top"] {
+    width: 100%;
+  }
 }

@@ -93,7 +93,7 @@ ul.remove();
 
 //let myBtnDiv = document.getElementById("right");
 let btn = document.createElement("button");
-btn.innerHtml = "Click me for jelly mode"
+btn.innerText = "Click me for jelly mode"
 btn.onclick = () => {
     document.body.style.color = "white";
     document.body.style.background = "rebeccapurple";

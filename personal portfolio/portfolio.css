@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(44, 45, 45);
+    color: #EBEBEB;
+  }
+
+header {
+  min-width: 400px;
+  margin: auto;
+  text-align: center;
+  
+}
+
+p {
+ text-align: center;
+ margin: 0 auto 1em;
+ max-width: 60em;
+}
+
+form {
+  text-align:center;
+}
+
+.links {
+  color:#EBEBEB
+}
