@@ -22,7 +22,11 @@ function App() {
         <p>
           <button id="reset">Reset</button>
         </p>
-
+      </section>
+      <section class="scoreboard">
+        <p id="heads-count">
+          Heads: 0
+        </p>
       </section>
         <img src={logo} className="App-logo" alt="logo" />
     </section>
