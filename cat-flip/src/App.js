@@ -3,9 +3,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="catflip-grid">
+    <section className="catflip-grid">
+      <section id="coin">
+
+      </section>
         <img src={logo} className="App-logo" alt="logo" />
-    </div>
+    </section>
   );
 }
 
