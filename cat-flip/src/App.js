@@ -27,6 +27,9 @@ function App() {
         <p id="heads-count">
           Heads: 0
         </p>
+        <p id="tails-count">
+          Tails: 0
+        </p>
       </section>
         <img src={logo} className="App-logo" alt="logo" />
     </section>
