@@ -19,7 +19,9 @@ function App() {
         <p>
           <button id="flip">Flip Coin</button>
         </p>
-
+        <p>
+          <button id="reset">Reset</button>
+        </p>
 
       </section>
         <img src={logo} className="App-logo" alt="logo" />
