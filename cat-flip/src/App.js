@@ -31,7 +31,6 @@ function App() {
           Tails: 0
         </p>
       </section>
-        <img src={logo} className="App-logo" alt="logo" />
     </section>
   );
 }
