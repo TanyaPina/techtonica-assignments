@@ -15,6 +15,13 @@ function App() {
         </div>
 
       </section>
+      <section class="buttons">
+        <p>
+          <button id="flip">Flip Coin</button>
+        </p>
+
+
+      </section>
         <img src={logo} className="App-logo" alt="logo" />
     </section>
   );
