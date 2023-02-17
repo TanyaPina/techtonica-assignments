@@ -107,3 +107,9 @@ button{
   background-color: #e1e0ee;
   color: #000000;
 }
+
+#reset{
+  background-color: #545B3E;
+  color: #ffffff;
+  margin-left: 50%;
+}
