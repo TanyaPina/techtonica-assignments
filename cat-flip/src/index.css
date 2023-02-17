@@ -75,3 +75,25 @@ body {
 #tails-count{
   margin-left: 60%;
 }
+
+.buttons{
+  display: flex;
+  padding: 20px;
+  margin-bottom:5px;
+  margin-top: 50px; 
+  position: absolute;
+  top: 50%;
+  left:50%;
+  -ms-transform: translate(-60%, -60%);
+  transform: translate(-60%, -60%);
+  
+}
+
+button{
+  width: 150px;
+  padding: 10px 0;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
