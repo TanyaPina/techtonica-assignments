@@ -97,3 +97,13 @@ button{
   border-radius: 5px;
   cursor: pointer;
 }
+
+#flip{
+  background-color: #7C4660;
+  color: #ffffff;
+}
+
+#flip:disabled{
+  background-color: #e1e0ee;
+  color: #000000;
+}
