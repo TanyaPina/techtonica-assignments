@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -16,12 +15,12 @@ function App() {
 
       </section>
       <section class="buttons">
-        <p>
+        <div>
           <button id="flip">Flip Coin</button>
-        </p>
-        <p>
+        </div>
+        <div>
           <button id="reset">Reset</button>
-        </p>
+        </div>
       </section>
       <section class="scoreboard">
         <p id="heads-count">
