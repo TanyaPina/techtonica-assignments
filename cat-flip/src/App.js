@@ -11,7 +11,7 @@ function App() {
         <div id="tails">
         <img src="https://i.pinimg.com/564x/eb/06/2f/eb062f73192a0e44871b4085547158c6.jpg" 
         alt="black silhoutte of a cat tail"/>
-        </div>
+        </div>s
       </section>
       <section class="buttons">
         <div>
