@@ -18,6 +18,13 @@ const ZINES = [{
     "category": "art compilation",
     "format": "print",
     "pages": "120" 
+},
+{
+    "title": "The Shepard's Journal: An Atlantis Fanzine",
+    "author": "various",
+    "category": "fanart compilation",
+    "format": "print",
+    "pages": "76"
 }
 ]
 
