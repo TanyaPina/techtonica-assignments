@@ -39,6 +39,13 @@ const ZINES = [{
     "category": "fanart compilation",
     "format": "print",
     "pages": "44"
+},
+{
+    "title": "Nic Cage Is Cool And You Guys Are Jealous",
+    "author": "various",
+    "category": "personal",
+    "format": "print",
+    "pages": "14"
 }
 ]
 
