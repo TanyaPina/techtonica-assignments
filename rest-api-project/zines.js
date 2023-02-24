@@ -9,4 +9,4 @@ const ZINES = [{
 ]
 
 
-export default ZINES;
+module.exports = ZINES;
