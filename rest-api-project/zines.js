@@ -32,6 +32,13 @@ const ZINES = [{
     "category": "fanart compilation",
     "format": "print",
     "pages": "64"
+},
+{
+    "title": "What We Create In The Shadows: A Charity Fangzine",
+    "author": "various",
+    "category": "fanart compilation",
+    "format": "print",
+    "pages": "44"
 }
 ]
 
