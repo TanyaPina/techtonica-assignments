@@ -11,6 +11,13 @@ const ZINES = [{
     "category": "personal",
     "format": "print",
     "pages": "30"
+},
+{
+    "title": "Down By The Sea: A Maritime Horror Zine",
+    "author": "various",
+    "category": "art compilation",
+    "format": "print",
+    "pages": "120" 
 }
 ]
 
