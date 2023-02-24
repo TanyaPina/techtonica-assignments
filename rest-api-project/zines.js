@@ -53,6 +53,13 @@ const ZINES = [{
     "category": "personal",
     "format": "print",
     "pages": "22"
+},
+{
+    "title": "Grey Matter Gravy: Issue 2, Colophon",
+    "author": "Verdi",
+    "category": "personal",
+    "format": "print",
+    "pages": "22"
 }
 ]
 
