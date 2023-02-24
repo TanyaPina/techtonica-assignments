@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const zines = require("./zines.js");
 
 const app = express();
 
