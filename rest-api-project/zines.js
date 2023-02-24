@@ -5,7 +5,13 @@ const ZINES = [{
     "format": "print",
     "pages": "6"
 },
-
+{
+    "title": "Sodium Vapor: The Breakup Zine ",
+    "author": "Wendy Rodriguez",
+    "category": "personal",
+    "format": "print",
+    "pages": "30"
+}
 ]
 
 
