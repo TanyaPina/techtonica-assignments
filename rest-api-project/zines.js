@@ -25,6 +25,13 @@ const ZINES = [{
     "category": "fanart compilation",
     "format": "print",
     "pages": "76"
+},
+{
+    "title": "Postcards From Carmen: A Fanzine",
+    "author": "various",
+    "category": "fanart compilation",
+    "format": "print",
+    "pages": "64"
 }
 ]
 
