@@ -46,6 +46,13 @@ const ZINES = [{
     "category": "personal",
     "format": "print",
     "pages": "14"
+},
+{
+    "title": "Grey Matter Gravy: Issue 1",
+    "author": "Verdi",
+    "category": "personal",
+    "format": "print",
+    "pages": "22"
 }
 ]
 
