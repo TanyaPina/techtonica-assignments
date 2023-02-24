@@ -62,11 +62,18 @@ const ZINES = [{
     "pages": "22"
 },
 {
-    "title": "The Sea Unseen: A Marine Zine 2021 ",
+    "title": "The Sea Unseen: A Marine Zine 2021",
     "author": "various",
     "category": "art compilation",
     "format": "digital",
     "pages": "72"
+},
+{
+    "title": "October Favorites",
+    "author": "Tanya Piña",
+    "category": "personal",
+    "format": "print",
+    "pages": "8"
 }
 ]
 
