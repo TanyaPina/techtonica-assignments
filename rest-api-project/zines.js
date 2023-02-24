@@ -1,5 +1,5 @@
 const ZINES = [{
-    "title": "I Feel Like I'm Full of Bees",
+    "title": "Full of Bees",
     "author": "Meghan McDunnah",
     "category": "personal",
     "format": "print",
@@ -60,6 +60,13 @@ const ZINES = [{
     "category": "personal",
     "format": "print",
     "pages": "22"
+},
+{
+    "title": "The Sea Unseen: A Marine Zine 2021 ",
+    "author": "various",
+    "category": "art compilation",
+    "format": "digital",
+    "pages": "72"
 }
 ]
 
