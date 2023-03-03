@@ -3,10 +3,15 @@ import {useState} from "react";
 const WeatherForm = (props) =>{
 
 const [city, setCity] = useState("");
+
 const onChange = (event) =>{
   setCity(event.target.value);
-  
+}  
+const handleSubmit = (event) =>{
+  event.prevent.default;
+  props.handleSubmit(city);
 }
+
     return (
         <div className="weather">
         <h1 className="App-header">Techtonica Weather Forecast App</h1>
