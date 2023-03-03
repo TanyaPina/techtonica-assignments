@@ -1,4 +1,4 @@
-const WeatherCard = (props) => {
+const WeatherCard = (data) => {
 
 
     return (
