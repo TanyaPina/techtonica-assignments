@@ -8,21 +8,22 @@ const onChange = (event) =>{
   setCity(event.target.value);
 }  
 const handleSubmit = (event) =>{
-  event.prevent.default;
+  event.prevent.default();
   props.handleSubmit(city);
 }
 
     return (
         <div className="weather">
         <h1 className="App-header">Techtonica Weather Forecast App</h1>
-        <form onSubmit={props.handleSubmit}>
+        <form onSubmit={handleSubmit}>
           <input
             id="city-name"
             type="text"
             placeholder="Please enter the city name"
             name="city"
-            value={props.city}
-            readOnly
+            value={city}
+            onChange={onChange}
+            required
           />
           <input type="submit" value="Submit" />
         </form>
