@@ -13,9 +13,8 @@ function App() {
     const URL = `http://localhost:8080/api/weather?${params}`;
     fetch(URL)
       .then((response) => response.json())
-      .then((result) => {
-        
-        setCity(result.name);
+      .then((result) => { 
+        setCity(result);
         setResult(result);
         console.log(city)
         console.log(result);
