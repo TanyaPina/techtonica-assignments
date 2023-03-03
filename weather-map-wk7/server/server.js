@@ -18,6 +18,11 @@ app.get('/', (req, res) => {
 app.get('/api/weather', (req, res) => {
   const city = req.query.cityName;
   const apiKey= process.env.API_KEY;
+  const params = new URLSearchParams ({
+    q: city,
+    appid: apiKey,
+    units: "Metric"
+  })
 });
 
 // console.log that your server is up and running
