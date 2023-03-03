@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="App">
-      <WeatherForm city={city} handleSubmit={handleSubmit}/>
+      <WeatherForm setCity={setCity} handleSubmit={handleSubmit}/>
       {!result ? <p>Please use the Form to see Real Data</p> : <WeatherCard data={result} /> }
     </div>
   );
