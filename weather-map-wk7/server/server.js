@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 // creates an endpoint for the route /api/weather
 app.get('/api/weather', (req, res) => {
   const city = req.query.cityName;
-  res.json(dataWeather);
+  const apiKey= process.env.API_KEY;
 });
 
 // console.log that your server is up and running
