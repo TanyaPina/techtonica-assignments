@@ -22,7 +22,17 @@ app.get('/api/weather', (req, res) => {
     q: city,
     appid: apiKey,
     units: "Metric"
+});
+
+const url = 'https://api.openweathermap.org/data/2.5/weather?${params}';
+fetch(url)
+  .then((res) => res.json())
+  .then((data) => {
+    res.send({data});
   })
+  .catch((err) => {
+    console.log(err);
+  });
 });
 
 // console.log that your server is up and running
