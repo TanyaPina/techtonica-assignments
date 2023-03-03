@@ -9,12 +9,12 @@ function App() {
 
   //A function to do the get request and set the state from the hard code data
   const loadCity = (city) => {
-    const params = new URLSearchParams({cityName: city});
-    const URL = `http://localhost:8080/api/weather?${params}`;
-    fetch(URL)
+    //const params = new URLSearchParams({cityName: city});
+    //const URL = `http://localhost:8080/api/weather?${params}`;
+    fetch(`http://localhost:8080/api/weather?cityName=${city}`)
       .then((response) => response.json())
       .then((result) => { 
-        setCity(result);
+        //setCity(result);
         setResult(result);
         console.log(city)
         console.log(result);
