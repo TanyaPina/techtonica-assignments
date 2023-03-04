@@ -25,7 +25,12 @@ const WeatherCard = ({data}) => {
             </p>
             <p>
               Wind Speed: <span className="data">
-                {data.wind.speed} meter/sec
+                {data.wind.speed} mph
+              </span>
+            </p>
+            <p>
+              Humidity: <span className="data">
+                {data.main.humidity}%
               </span>
             </p>
             </div>
