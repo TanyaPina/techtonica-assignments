@@ -1,4 +1,4 @@
-const WeatherCard = (data) => {
+const WeatherCard = ({data}) => {
 
 
     return (
@@ -23,7 +23,11 @@ const WeatherCard = (data) => {
                 {data.main.feels_like} <sup>o</sup>F
               </span>
             </p>
-
+            <p>
+              Wind Speed: <span className="data">
+                {data.wind.speed} meter/sec
+              </span>
+            </p>
             </div>
 
         </div>
