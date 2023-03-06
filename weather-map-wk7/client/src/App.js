@@ -6,7 +6,6 @@ import WeatherCard from './components/weatherCard';
 function App() {
   const [city, setCity] = useState("");
   const [result, setResult] = useState(null);
-
   //A function to do the get request and set the state from the hard code data
   const loadCity = () => {
     //const params = new URLSearchParams({cityName: city});
@@ -17,8 +16,8 @@ function App() {
       .then((result) => { 
         //setCity(result);
         setResult(result);
-        console.log(city);
-        console.log(result);
+        //console.log(city);
+        //console.log(result);
       });
   };
 
@@ -33,6 +32,7 @@ function App() {
       <WeatherForm setCity={setCity} handleSubmit={handleSubmit} city={city}/>
       {!result ? (<p>Please use the Form to see Real Data</p>) : (<WeatherCard data={result} /> )}
     </div>
+
   );
 }
 

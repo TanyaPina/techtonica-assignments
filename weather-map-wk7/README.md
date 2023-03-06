@@ -1,7 +1,5 @@
 # Weather Forecast app
 
-> This app is a fullstack app build using React Frontend and Express Backend with hardcode data. This project doesn't render real-time data
-
 ## Quick Guide
 
 ```bash
