@@ -25,8 +25,18 @@ app.get("/", (req, res) => {
 
 
   // //hardcode the game response for testing reasons to don't saturate my API call. 
-app.get('/api/game', (req, res) =>{
-    res.json(fakedata);
+app.get('/api/game', async(req, res) =>{
+  
+  try {
+      const URL = "https://opentdb.com/api.php?amount=10&category=15&difficulty=medium&type=boolean";
+      const apiRequest = await fetch(URL);
+      const questions = await apiRequest.json();
+      res.send(questions);
+    } catch(err){
+      console.log(err);
+    }
+    
+    //res.json(fakedata); //change to grab api values
 })
 
 
