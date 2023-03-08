@@ -5,7 +5,7 @@ import fetch from 'node-fetch';
 
 
 // For testing my API I saving one response in a .js file 
-import fakedata  from './fakedata.js';
+//import fakedata  from './fakedata.js';
 
 const app = express();
 const PORT = 5050;
