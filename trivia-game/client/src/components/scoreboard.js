@@ -3,7 +3,7 @@ import { useState} from "react";
 
 const Scoreboard = (props) => {
 //const [showScore, setShowScore] = useState(false);
-//const [score,setScore] = useState(0);
+const [score,setScore] = useState(0);
 
 
     return (

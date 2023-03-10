@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import QuestionCard from "./questioncard";
-
+import Scoreboard from "./scoreboard";
 const Game = (props) => {
 
     const [questions, setQuestions] = useState([]);
@@ -20,6 +20,7 @@ const Game = (props) => {
 
     return (
         <div className="Container">
+            <div><Scoreboard score={score} /></div>
             <div className='question-count'>
                 <span>Question 1</span>/{questions.length}
             </div>
