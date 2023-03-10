@@ -1,15 +1,18 @@
 const Header = (props) => {
 
-  let message;
+  let message1;
+  let message2;
   if (props.user) {
-    message = `Welcome to my game ${props.user}`;
+    message1 = `WELCOME TO TANYA'S GAMEBOI`;
+    message2=  `Game on, ${props.user}!`;
   } else {
-    message = `Welcome to my game`;
+    message1 = `WELCOME TO TANYA'S GAMEBOI`;
   }
   
   return (
     <div className={"textHeader"}>
-      <h3>{message}</h3>
+      <h2>{message1}</h2>
+      <h4>{message2}</h4>
     </div>
   );
 };
