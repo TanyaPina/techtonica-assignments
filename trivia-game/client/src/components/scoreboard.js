@@ -1,12 +1,16 @@
-import { useState } from "react";
+import { useState} from "react";
 
-const scoreboard = (props) => {
+
+const Scoreboard = (props) => {
+//const [showScore, setShowScore] = useState(false);
+//const [score,setScore] = useState(0);
+
 
     return (
         <div className={"scoreboard-section"}>
-          <div className='scoreboard-text'>message = "Hello this is the score"</div>
+          <div className='scoreboard-text'>You got {props.score} out of 10!</div>
         </div>
       );
     };
   
-  export default scoreboard;
+  export default Scoreboard;

@@ -4,7 +4,7 @@ import QuestionCard from "./questioncard";
 const Game = (props) => {
 
     const [questions, setQuestions] = useState([]);
-
+    const [score,setScore] = useState(0);
     const loadData = () => {
         fetch('http://localhost:5050/api/game')
             .then((response) => response.json())
@@ -13,7 +13,7 @@ const Game = (props) => {
                 setQuestions(data.results);
             })
     }
-
+//after loading the components, call the api and load data 
     useEffect(() => {
         loadData();
     }, [])
@@ -24,7 +24,7 @@ const Game = (props) => {
                 <span>Question 1</span>/{questions.length}
             </div>
             {questions.map((question, index) => {
-                return <QuestionCard key={index} question={question} />
+                return <QuestionCard key={index} question={question} score={score} setScore={setScore}/>
             })}
         </div>
     )
