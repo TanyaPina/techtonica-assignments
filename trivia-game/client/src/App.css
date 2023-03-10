@@ -1,6 +1,6 @@
 .App {
-  background-image: url(gameboylike.png);
-  background-color: #eaeff1;
+  
+  background-color: #ced0c4;
   color: #181B07;
   font-family: 'Jost', sans-serif;
   display:flex; 
@@ -25,6 +25,7 @@ h3{
 
 .Container {
   display: table-cell;
+  border-spacing: 2px;
   vertical-align: middle;
   align-self: center;
 }
@@ -40,13 +41,13 @@ h3{
   border-style: double;
   border-width: 5px;
   /* Add space between the border and the content */
-  padding: 8px;
+  padding: 15px;
   margin: auto;
   width: 70%;
 }
 
 body {
-  background-image: url(gameboylike.png);
+  background-color: #ced0c4;
 }
 
 @font-face {
@@ -57,4 +58,23 @@ body {
 .scoreboard-section {
   text-align: center;
   padding: 15px;
+}
+
+.answer-section {
+  padding: 5px;
+}
+
+.header{
+  padding: 15px;
+}
+
+#send {
+  background-color: #651313;
+  color:aliceblue;
+}
+
+.answerbuttons {
+  background-color: #3f3e3e;
+  color:aliceblue;
+  border-radius: 7px;
 }

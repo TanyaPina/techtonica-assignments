@@ -19,11 +19,11 @@ const QuestionCard = (props) => {
 
     return (
       <div className={"question-section"}>
-        <div>Question {props.questions}</div>
+        {/*<div>Question {props.questions}</div>*/}
         <div className='question-text'>{decode(props.question.question)}</div>
         <div className='answer-section'>
-		<button disabled={answered} onClick= {() => handleAnswerOptionClick("True")}>True</button>
-		<button disabled={answered} onClick= {() => handleAnswerOptionClick("False")}>False</button>
+		<button class="answerbuttons" disabled={answered} onClick= {() => handleAnswerOptionClick("True")}>True</button>
+		<button class="answerbuttons" disabled={answered} onClick= {() => handleAnswerOptionClick("False")}>False</button>
    {/* {question.correct_answer.map((answerOption)=>
       <button onClick={() =>}
    )}*/}

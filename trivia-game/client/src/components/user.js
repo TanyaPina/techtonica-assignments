@@ -22,7 +22,7 @@ const UserForm = (props) => {
             value={value}
             onChange={(e) => setValue(e.target.value)}
           />
-          <button type="submit">Send</button>
+          <button id="send" type="submit">Send</button>
         </form>
       </div>
     </div>
