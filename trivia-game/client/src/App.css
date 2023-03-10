@@ -53,3 +53,8 @@ body {
   font-family: "Pokemon GB";
   src: url('/Users/tanya/Documents/projects/techtonica/Techtonica-Assignments/trivia-game/client/src/fonts/PokemonGb-RAeo.ttf');
 }
+
+.scoreboard-section {
+  text-align: center;
+  padding: 15px;
+}
