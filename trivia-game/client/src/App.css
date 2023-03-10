@@ -32,20 +32,24 @@ h3{
 .question-section{
   /* Change background color */
   background-color: white;
-  font-family: "Raleway", sans-serif;
+  background-image: url(gameboylike.png);
+  font-family: "Pokemon GB";
+  font-size: 0.875em;
   /* Add border */
-  border: 1px solid #bacdd8;
-
+  border: #181B07;
+  border-style: double;
+  border-width: 5px;
   /* Add space between the border and the content */
   padding: 8px;
-
-  border-radius: 12px;
-
+  margin: auto;
   width: 70%;
-
 }
 
 body {
   background-image: url(gameboylike.png);
 }
 
+@font-face {
+  font-family: "Pokemon GB";
+  src: url('/Users/tanya/Documents/projects/techtonica/Techtonica-Assignments/trivia-game/client/src/fonts/PokemonGb-RAeo.ttf');
+}
