@@ -28,7 +28,6 @@ const QuestionCard = (props) => {
       <button onClick={() =>}
    )}*/}
         </div>
-        <div><Scoreboard score={props.score}/></div>
       </div>
     );
   };

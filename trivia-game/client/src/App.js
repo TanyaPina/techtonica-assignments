@@ -17,7 +17,6 @@ function App() {
     <Header user={user} />
     <UserForm grabUser={handleUser} />
     {user ? <Game /> : null}
-    <Scoreboard/>  
     </div>
   );
 }
