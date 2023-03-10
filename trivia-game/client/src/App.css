@@ -64,6 +64,7 @@ body {
 .scoreboard-section {
   text-align: center;
   padding: 15px;
+  color:#ced0c4;
 }
 
 .answer-section {
@@ -80,7 +81,5 @@ body {
 }
 
 .answerbuttons {
-  background-color: #3f3e3e;
-  color:aliceblue;
   border-radius: 7px;
 }
