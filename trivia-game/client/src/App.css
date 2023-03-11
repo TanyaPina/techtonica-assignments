@@ -83,4 +83,11 @@ body {
 
 .answerbuttons {
   border-radius: 7px;
+  color: rgb(237, 237, 237);
+  background-color: rgb(35, 36, 36);
+}
+
+.disabledbutton{
+  color: rgb(0, 0, 0);
+  background-color: #f0f0f0;
 }
