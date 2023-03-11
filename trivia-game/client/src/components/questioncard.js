@@ -20,7 +20,7 @@ const QuestionCard = (props) => {
   }
 
     return (
-      <div className={"question-section"}>
+      <div className="question-section">
         {/*<div>Question {props.questions}</div>*/}
         <div className='question-text'>{decode(props.question.question)}</div>
         <div className='answer-section'>
