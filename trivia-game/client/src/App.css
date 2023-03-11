@@ -1,0 +1,93 @@
+.App {
+  
+  background-color: #ced0c4;
+  color: #181B07;
+  font-family: 'Jost', sans-serif;
+  display:flex; 
+  flex-direction:column; 
+  justify-content:center;
+}
+
+.textHeader{
+  align-self: center;
+}
+
+h3{
+  text-align:center;
+}
+.ListMain{
+  align-self: center;
+}
+
+.question-count{
+  margin-top: 25px;
+}
+
+.Container {
+  padding-top: 50px;
+  display: table-cell;
+  border-spacing: 2px;
+  vertical-align: middle;
+  align-self: center;
+  margin-top: 50px;
+  background-color: #3f3e3e;
+  border-radius: 50px 50px 5px 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.question-section{
+  /* Change background color */
+  background-color: white;
+  background-image: url(gameboylike.png);
+  font-family: "Pokemon GB";
+  font-size: 0.875em;
+  line-height: 1.5;
+  /* Add border */
+  border: #181B07;
+  border-style: double;
+  border-width: 5px;
+  /* Add space between the border and the content */
+  padding: 15px;
+  margin: auto;
+  width: 70%;
+}
+
+body {
+  background-color: #ced0c4;
+}
+
+@font-face {
+  font-family: "Pokemon GB";
+  src: url('/Users/tanya/Documents/projects/techtonica/Techtonica-Assignments/trivia-game/client/src/fonts/PokemonGb-RAeo.ttf');
+}
+
+.scoreboard-section {
+  text-align: center;
+  padding: 15px;
+  color:#D3D4C9;
+}
+
+.answer-section {
+  padding: 5px;
+}
+
+.header{
+  padding: 15px;
+}
+
+#send {
+  background-color: #651313;
+  color:aliceblue;
+}
+
+.answerbuttons {
+  border-radius: 7px;
+  color: rgb(237, 237, 237);
+  background-color: rgb(35, 36, 36);
+}
+
+.disabledbutton{
+  color: rgb(0, 0, 0);
+  background-color: #f0f0f0;
+}
