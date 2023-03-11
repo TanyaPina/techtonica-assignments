@@ -31,7 +31,7 @@ h3{
   align-self: center;
   margin-top: 50px;
   background-color: #3f3e3e;
-  border-radius: 50px;
+  border-radius: 50px 50px 5px 50px;
   margin-left: 25px;
   margin-right: 25px;
 }
@@ -42,6 +42,7 @@ h3{
   background-image: url(gameboylike.png);
   font-family: "Pokemon GB";
   font-size: 0.875em;
+  line-height: 1.5;
   /* Add border */
   border: #181B07;
   border-style: double;
